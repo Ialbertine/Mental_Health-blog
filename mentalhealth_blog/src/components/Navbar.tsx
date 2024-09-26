@@ -41,7 +41,7 @@ const Navbar = () => {
           <div className="-mr-2 flex md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-3xl inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white  focus:outline-none"
+              className="text-3xl inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-[#e3770c]  focus:outline-none"
             >
               {isOpen ? <IoMdClose /> : <RiMenu3Line />}
             </button>
